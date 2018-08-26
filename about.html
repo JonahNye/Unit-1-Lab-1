@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+    <link href="./Resources/stylesheet.css" type="text/css" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>About Jonah</title>
   </head>
   <body>
-   <div id="navigation">
-    <nav>
-      <a href="./index.html">Home</a>
-      <a href="./about.html">About Me</a>
-      <a href="./contact.html"> Contact </a>
+    <nav class="navbar">
+     <ul class="container">
+      <li>
+        <a class="navl" href="./index.html">Home</a>
+      </li>
+      <li>
+        <a class="navl" href="./about.html">About Me</a>
+      </li>
+      <li>
+        <a class="navl" href="./contact.html"> Contact </a>
+      </li>
+     </ul>
     </nav>
-   </div>
 
    <div id="about-header">
      <h1> Jonah Nye </h1>
    </div>
 
-   <div id="about-body">
-     <p> A bit about me...
-     <div>
-       <div class="column">
-         <p>Facts About Me<p>
+     <div class="columnsection">
+       <div class="columnfacts">
+         <p id="subheader">Facts About Me<p>
          <ul>
            <li>I have spent most of my life in Novi, Michigan</li>
            <li>I recently graduated from Michigan State University</li>
@@ -30,8 +34,8 @@
            <li>I like to hike, read, and travel</li>
          </ul>
        </div>
-       <div class="column">
-         <p>My Favortie Books<p>
+       <div class="columnbooks">
+         <p id="subheader">My Favortie Books<p>
            <ol>
              <li>The Space Trilogy by C.S.Lewis</li>
              <a href="https://en.wikipedia.org/wiki/The_Brothers_Karamazov" target="_blank"><li>The Brothers Karamazov by Fyodor Dostoyevsky</li></a>

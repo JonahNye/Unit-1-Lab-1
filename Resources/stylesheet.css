@@ -1,0 +1,48 @@
+/* About Page Styling */
+
+.columnsection{
+  display: flex;
+
+}
+
+.columnfacts{
+flex: 1;
+padding: 5px
+}
+
+.columnbooks{
+flex: 1;
+padding: 5px;
+
+     /* By ID  */
+}
+
+#subheader {
+margin-left: 100px;
+text-w
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* All Pages   */
+.container{
+  display: flex;
+}
