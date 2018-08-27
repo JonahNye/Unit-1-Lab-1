@@ -1,3 +1,4 @@
+
 /* About Page Styling */
 
 .columnsection{
@@ -10,6 +11,7 @@ background-color: #797a91;
 padding: 5px;
 line-height: 2;
 color: white;
+font-family: sans-serif;
 }
 
 .columnbooks{
@@ -17,13 +19,14 @@ background-color: #85a7ac;
 padding: 5px;
 line-height: 1.5;
 color: white;
+font-family: sans-serif;
 
      /* By ID  */
 }
 
 #subheader {
-margin-left: 100px;
 
+text-align: center;
 }
 
 
@@ -32,6 +35,7 @@ margin-left: 100px;
   text-align: center;
   color: #254567;
 }
+
 
 /* Index Styling  */
 
@@ -54,7 +58,11 @@ margin-left: 100px;
 
 /*  Contact Styling */
 
+ .contact-greeting {
+   color: #797a91;
+   text-align: center;
 
+ }
 
 
 
@@ -63,24 +71,42 @@ margin-left: 100px;
 
    form {
      display: flex;
+     justify-content: center;
    }
 
+
+
+
+
    .fname {
-   flex: 1;
+     border: 3px solid #85a7ac;
+     padding: 5px;
+     margin: 15px;
+     flex: 1;
+
    }
 
    .lname {
-   flex: 1;
-
+     border: 3px solid #85a7ac;
+     padding: 5px;
+     margin: 15px;
+     flex: 1;
    }
 
    .textarea {
-  flex: 2;
-  
+     border: 3px solid #85a7ac;
+     padding: 5px;
+     margin: 15px;
+     flex: 2;
    }
 
    .button {
-   flex: 1;
+     border: 3px solid #85a7ac;
+     padding: 5px;
+     margin: 15px;
+     flex: 1;
+     background-color: #254567;
+     color: white;
    }
 
      /* By id and tag  */
@@ -102,13 +128,14 @@ margin-left: 100px;
 
 
 
-
-
-
-/* All Pages   */
 body {
-  background-color: #e7eacd;
+  background-color: #d9e4d0;
 }
+
+
+/* Nav Bar   */
+
+
 
 
 .navbar {
