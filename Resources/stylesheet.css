@@ -39,6 +39,20 @@ text-align: center;
 
 /* Index Styling  */
 
+
+.greeting {
+  text-align: center;
+
+
+}
+
+    /* Image Section */
+  .image-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
     /* By id and tag  */
 #indexheader h1 {
   text-align: center;
