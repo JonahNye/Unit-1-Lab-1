@@ -1,3 +1,22 @@
+/* Font Import  */
+     /* Font for Body */
+@font-face {
+    font-family: 'cantarellregular';
+    src: url('Cantarell-Regular-webfont.eot');
+    src: url('Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Cantarell-Regular-webfont.woff2') format('woff2'),
+         url('./fonts/cantarell_regular_macroman/Cantarell-Regular-webfont.woff') format('woff'),
+         url('./fonts/Cantarell-Regular.ttf') format('truetype'),
+         url('Cantarell-Regular-webfont.svg#cantarellregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
 
 /* About Page Styling */
 
@@ -11,7 +30,7 @@ background-color: #797a91;
 padding: 5px;
 line-height: 2;
 color: white;
-font-family: sans-serif;
+font-family: cantarellregular;
 }
 
 .columnbooks{
@@ -19,7 +38,7 @@ background-color: #85a7ac;
 padding: 5px;
 line-height: 1.5;
 color: white;
-font-family: sans-serif;
+font-family: cantarellregular;
 
      /* By ID  */
 }
@@ -51,6 +70,10 @@ text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+  .imagethree {
+    width: 400px;
+    height: 450px;
   }
 
     /* By id and tag  */
@@ -140,10 +163,16 @@ text-align: center;
 
 
 
-
+p {
+  font-family: cantarellregular;
+}
 
 body {
   background-color: #d9e4d0;
+}
+
+h1 {
+  font-family: cantarellregular;
 }
 
 
@@ -185,3 +214,72 @@ color: white;
 a:hover {
   background-color: #45a9c5;
 }
+
+/* Media Queries  */
+
+
+  @media (max-width: 600px) {
+      /* Nav Bar  */
+
+      .navbar {
+        font-size: 18px;
+        background-color: #161536;
+      }
+
+      .container{
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-start;
+        flex-direction: column;
+      }
+
+       /*About Page */
+
+       .columnsection{
+         display: flex;
+       justify-content: space-around;
+       flex-direction: column;
+       align-items: center;
+       }
+
+       .columnfacts{
+       background-color: #797a91;
+       padding: 5px;
+       line-height: 2;
+       color: white;
+       font-family: cantarellregular;
+       margin: 5px;
+       }
+
+       .columnbooks{
+       background-color: #85a7ac;
+       padding: 5px;
+       line-height: 1.5;
+       color: white;
+       font-family: cantarellregular;
+       margin: 5px;
+      }
+
+
+        /* Contact Page   */
+        form {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+        }
+
+
+        /*Home Page */
+        .image-group {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          flex-direction: column;
+        }
+
+        .imagethree {
+          width: 400px;
+          height: 450px;
+        }
+
+  }
