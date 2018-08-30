@@ -1,20 +1,14 @@
 /* Font Import  */
      /* Font for Body */
-@font-face {
-    font-family: 'cantarellregular';
-    src: url('Cantarell-Regular-webfont.eot');
-    src: url('Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Cantarell-Regular-webfont.woff2') format('woff2'),
-         url('./fonts/cantarell_regular_macroman/Cantarell-Regular-webfont.woff') format('woff'),
-         url('./fonts/Cantarell-Regular.ttf') format('truetype'),
-         url('Cantarell-Regular-webfont.svg#cantarellregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+     /* Font for Header  */
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
 
+
+body {
+  background-color: #d9e4d0;
+  font-family: 'Oswald', sans-serif;
 }
-
-
-
 
 
 
@@ -30,7 +24,7 @@ background-color: #797a91;
 padding: 5px;
 line-height: 2;
 color: white;
-font-family: cantarellregular;
+font-family: 'Oswald', sans-serif;
 }
 
 .columnbooks{
@@ -38,10 +32,16 @@ background-color: #85a7ac;
 padding: 5px;
 line-height: 1.5;
 color: white;
-font-family: cantarellregular;
+font-family: 'Oswald', sans-serif;
 
-     /* By ID  */
 }
+/* Forgive me but I cannot make this linked list items recieve hover tag.
+ #hoverpls a:hover {
+  background-color: #45a9c5;
+}
+*/
+     /* By ID  */
+
 
 #subheader {
 
@@ -53,6 +53,7 @@ text-align: center;
 #about-header h1 {
   text-align: center;
   color: #254567;
+
 }
 
 
@@ -61,6 +62,8 @@ text-align: center;
 
 .greeting {
   text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: #797a91;
 
 
 }
@@ -80,6 +83,8 @@ text-align: center;
 #indexheader h1 {
   text-align: center;
   color: #254567;
+  font-family: 'Orbitron', sans-serif;
+
 }
 
 
@@ -98,7 +103,7 @@ text-align: center;
  .contact-greeting {
    color: #797a91;
    text-align: center;
-
+font-family: 'Oswald', sans-serif;
  }
 
 
@@ -150,10 +155,13 @@ text-align: center;
      #contact-header h1 {
        text-align: center;
        color: #254567;
+       font-family: 'Orbitron', sans-serif;
      }
 
 
-
+   #about-header h1 {
+     font-family: 'Orbitron', sans-serif;
+   }
 
 
 
@@ -167,12 +175,10 @@ p {
   font-family: cantarellregular;
 }
 
-body {
-  background-color: #d9e4d0;
-}
+
 
 h1 {
-  font-family: cantarellregular;
+  font-family: font-family: 'Orbitron', sans-serif;
 }
 
 
@@ -214,6 +220,7 @@ color: white;
 a:hover {
   background-color: #45a9c5;
 }
+
 
 /* Media Queries  */
 
